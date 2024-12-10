@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Website</title>
+    <link rel="icon" type="image/jpg" href="./img/icon.jpg"/>
+    <!-- Icons -->
+    <link rel="stylesheet" href="./Css/all.min.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar"  data-bs-offset="100">
+<!---------------------------------- Navbar------------------ -->
+<header class="header-w">
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="./img/logo.png" class="img-fluid" alt="logo" width="50">
+          </a>
+          <button class="navbar-toggler" type="button" 
+          data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+          aria-controls="navbarNav" aria-expanded="false" 
+          aria-label="Toggle navigation">
+            <!-- <span class="navbar-toggler-icon"><i class="fas fa-stream navbar-toggler-icon"></i></span> -->
+            <i class="fa-solid fa-bars-staggered "></i>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav menu-navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#rooms">Rooms</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallery">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#price">Price</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#blog">Blog</a>
+              </li>
+              <li class="nav-item mt-3 mt-lg-0">
+                <a class="main-btn" href="#">Book Now</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+</header>
+<!------------------- home --------------------->
+<seciton id="home" class="home-w p-0 ">
+
+    <div class="home-w">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide" style="background-image: url('./img/slider2.webp');">
+              <div class="slide-caption text-center position-relative d-flex align-items-center justify-content-center">
+                <div>
+                  <h1>Welcome to our hotel</h1>
+                  <p>Welcome to our hotel, where comfort and elegance come together to create a memorable stay. 
+                      Located in the heart of a vibrant destination, we offer exceptional service, modern amenities, 
+                      and a warm, welcoming atmosphere. Whether you're here for relaxation or adventure, 
+                      we’re dedicated to making your visit truly unforgettable.</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide" style="background-image: url('./img/slider1.webp');">
+              <div class="slide-caption text-center position-relative d-flex align-items-center justify-content-center">
+                <div>
+                  <h1>Discover Hotel</h1>
+                  <p>Experience the ultimate in luxury and comfort with our world-class amenities and warm hospitality. 
+                      Let us make your stay unforgettable.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      <!---------------- check --------------->
+      <div class="container booking-area position-relative">
+          <form action="" class="row">
+            <div class="col-lg mb-3 mb-lg-0 ">
+             <input type="date" class="form-control" placeholder="Date">
+            </div>
+            <div class="col-lg mb-3 mb-lg-0 ">
+                <input type="date" class="form-control" placeholder="Date">
+               </div>
+               <div class="col-lg mb-3 mb-lg-0 ">
+                <select class="form-select" >
+                    <option selected>Adults</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                </select>
+               </div>
+               <div class="col-lg mb-3 mb-lg-0 ">
+                <select class="form-select" >
+                    <option selected>Children</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                </select>
+               </div>
+               <div class="col-lg mb-3 mb-lg-0 ">
+                <button type="submit" class="main-btn rounded-2 px-lg-3 ">Check Availability</button>
+               </div>
+          </form>
+      </div>
+</seciton>
+<!---------------------- About ----------------------------->
+<section id="about" class="about-w ">
+<div class="container">
+    <div class="row flex-lg-row flex-column-reverse">
+        <div class="col-lg-6 text-center text-lg-start">
+        <h3>Welcome to <span>Hotel <br class="d-none d-lg-block">
+           the haven </span> of yor weekend</h3>
+           <p>A hotel website serves as a digital gateway for guests to explore, book, and learn about the hotel’s services. It typically includes details about rooms, amenities, dining options, and local attractions
+            , along with high-quality images to create an inviting experience</p>
+        <p>The website ensures an easy booking process with secure 
+            payment options and provides essential contact information for inquiries. A well-designed hotel website enhances the guest experience, making it simple and convenient to plan a stay.</p>
+         <a href="#" class="main-btn mt-4">Explore</a>
+        </div>
+        <div class="col-lg-6 mb-4 mb-lg-0 ps-lg-4 text-center">
+          <img src="./img/about-img.svg" class="img-fluid" alt="about">
+        </div>
+    </div>
+
+</div>
+</section>
+<!----------------- Room ------------------->
+
+<section id="rooms" class="room-w">
+<div class="container-fluid">
+<div class="row">
+ <div class="col-sm-12 section-title text-center mb-5">
+   <h6>What I Can do for you</h6>
+   <h3>Our Favorite Rooms</h3>
+ </div>
+</div>
+<div class="row m-0">
+ <div class="col-md-4 mb-4 mb-lg-0">
+   <div class="room-items">
+     <img src="./img/room1.webp" class="img-fluid" alt="">
+     <div class="room-item-w">
+       <div class="room-content">
+         <h5 class="text-white mb-lg-5 text-decoration-underline">Suit</h5>
+         <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, odit.
+         </p>
+         <p class="text-white fw-bold mt-lg-4">$220 / per Night</p>
+         <a href="#" class="main-btn border-white text-white mt-lg-5">Book Now</a>
+       </div>
+     </div>
+   </div>
+ </div>
+ <div class="col-md-4 mb-4 mb-lg-0">
+    <div class="room-items">
+      <img src="./img/room2.webp" class="img-fluid" alt="">
+      <div class="room-item-w">
+        <div class="room-content">
+          <h5 class="text-white mb-lg-5 text-decoration-underline">Suit</h5>
+          <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, odit.
+          </p>
+          <p class="text-white fw-bold mt-lg-4">$220 / per Night</p>
+          <a href="#" class="main-btn border-white text-white mt-lg-5">Book Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4 mb-4 mb-lg-0">
+    <div class="room-items">
+      <img src="./img/room3.webp" class="img-fluid" alt="">
+      <div class="room-item-w">
+        <div class="room-content">
+          <h5 class="text-white mb-lg-5 text-decoration-underline">Suit</h5>
+          <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, odit.
+          </p>
+          <p class="text-white fw-bold mt-lg-4">$220 / per Night</p>
+          <a href="#" class="main-btn border-white text-white mt-lg-5">Book Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+</div>
+</section>
+<!-- ----------------------Services----------- -->
+ <section id="services" class="Serv-w">
+  <div class="container">
+    <div class="row">
+     <div class="col-sm-12 section-title text-center mb-5">
+      <h6>We are here for you</h6>
+      <h3>Our Services</h3>
+     </div>
+    </div>
+    <div class="row align-items-center serv-item-w">
+      <div  class="col-lg-7 p-lg-0">
+        <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="spa" role="tabpanel"  >
+                <img src="./img/service1.webp" alt="">
+            </div>
+            <div class="tab-pane fade" id="rest" role="tabpanel" >
+                <img src="./img/service2.webp" alt="">
+            </div>
+            <div class="tab-pane fade" id="swim" role="tabpanel" >
+                <img src="./img/service3.webp" alt="">
+            </div>
+              <div class="tab-pane fade" id="conf" role="tabpanel" >
+                <img src="./img/service6.webp" alt="">
+            </div>
+          </div>
+      </div>
+      <div class="col-lg-5 position-relative g-5">
+        <div class="serv-menu-area">
+            <ul class="nav ">
+                <li >
+                 <a href="#spa" data-bs-toggle="tab" class="active">
+                    <span class="serv-icon ">
+                      <img src="./img/service-icon1.webp" alt="">
+                    </span>
+                    <h5 >Spa, beauty & Healthy</h5>
+                    <p ><span>Spa & beauty</span> Lorem ipsum dolor sit amet consectetur.</p>
+                 </a>
+                </li>
+                <li >
+                    <a href="#rest" data-bs-toggle="tab" >
+                       <span class="serv-icon">
+                         <img src="./img/service-icon2.webp" alt="">
+                       </span>
+                       <h5>Restaurant</h5>
+                       <p><span>Restaurant</span> Lorem ipsum dolor sit amet consectetur.</p>
+                    </a>
+                   </li>
+                   <li >
+                    <a href="#swim" data-bs-toggle="tab">
+                       <span class="serv-icon">
+                         <img src="./img/service-icon3.webp" alt="">
+                       </span>
+                       <h5>Swimming</h5>
+                       <p><span>Swimming</span> Lorem ipsum dolor sit amet consectetur.</p>
+                    </a>
+                   </li>
+                   <li >
+                    <a href="#conf" data-bs-toggle="tab" >
+                       <span class="serv-icon">
+                         <img src="./img/service-icon4.webp" alt="">
+                       </span>
+                       <h5>Conference Hall</h5>
+                       <p><span>Conference</span> Lorem ipsum dolor sit amet consectetur.</p>
+                    </a>
+                   </li>
+              </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="counter mt-5">
+   <div class="container">
+    <div class="row text-center">
+      <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+         <h1>
+            <span id="count1"></span>+
+         </h1>
+         <p>Happy Clinets</p>
+      </div>
+      <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+        <h1>
+           <span id="count2"></span>+
+        </h1>
+        <p>New Clints</p>
+     </div>
+     <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+        <h1>
+           <span id="count3"></span>+
+        </h1>
+        <p>Rating</p>
+     </div>
+     <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+        <h1>
+           <span id="count4"></span>+
+        </h1>
+        <p>Serving</p>
+     </div>
+    </div>
+   </div>
+  </div>
+ </section>
+ <!--************ team -->
+ <section class="team-w" id="team">
+   <div class="container">
+    <div class="row">
+       <div class="col-sm-12 section-title text-center mb-5">
+        <h6>What I Can do for you</h6>
+        <h3>Our Special Staff</h3>
+       </div>
+    </div>
+    <div class="row">
+     <div class="col-lg-3 col-md-6 mb-4">
+       <div class="card p-0 rounded-3">
+         <img src="./img/team1.webp" class="img-fluid rounded-3" alt="">
+         <div class="team-info">
+             <h5>Mark</h5>
+             <p>Manager</p>
+             <ul class="social-net">
+              <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href=""><i class="fab fa-twitter"></i></a></li>
+              <li><a href=""><i class="fab fa-instagram"></i></a></li>
+           
+            </ul>
+         </div>
+       </div>
+     </div>
+     <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card p-0 rounded-3">
+          <img src="./img/team2.webp" class="img-fluid rounded-3" alt="">
+          <div class="team-info">
+              <h5>Danial</h5>
+              <p>Waiter</p>
+              <ul class="social-net">
+               <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+               <li><a href=""><i class="fab fa-twitter"></i></a></li>
+               <li><a href=""><i class="fab fa-instagram"></i></a></li>
+            
+             </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card p-0 rounded-3">
+          <img src="./img/team3.webp" class="img-fluid rounded-3" alt="">
+          <div class="team-info">
+              <h5>Mark</h5>
+              <p>Chef</p>
+              <ul class="social-net">
+               <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+               <li><a href=""><i class="fab fa-twitter"></i></a></li>
+               <li><a href=""><i class="fab fa-instagram"></i></a></li>
+            
+             </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card p-0 rounded-3">
+          <img src="./img/team4.webp" class="img-fluid rounded-3" alt="">
+          <div class="team-info">
+              <h5>Winy</h5>
+              <p>HouseKeeping</p>
+              <ul class="social-net">
+               <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+               <li><a href=""><i class="fab fa-twitter"></i></a></li>
+               <li><a href=""><i class="fab fa-instagram"></i></a></li>
+            
+             </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+ </section>
+
+ <!-------------------- gallery--------------- -->
+ <section id="gallery" class="gallery-w">
+   <div class="container">
+    <div class="row">
+      <div class="col-sm-12 section-title text-center mb-5">
+       <h6>Best Pictures</h6>
+       <h3>Our Gallery</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-3 col-md-6 gallery-item">
+        <img src="./img/1.webp" class="img-fluid w-100" alt="">
+        <div class="gallery-item-content"></div>  
+    </div>
+    <div class="col-lg-3 col-md-6 gallery-item">
+        <img src="./img/2.webp" class="img-fluid w-100" alt="">
+        <div class="gallery-item-content"></div>  
+    </div>
+    <div class="col-lg-3 col-md-6 gallery-item">
+        <img src="./img/3.webp" class="img-fluid w-100" alt="">
+        <div class="gallery-item-content"></div>  
+    </div>
+    <div class="col-lg-3 col-md-6 gallery-item">
+        <img src="./img/4.webp" class="img-fluid w-100" alt="">
+        <div class="gallery-item-content"></div>  
+    </div>
+    <div class=" col-md-6 gallery-item mt-2">
+        <img src="./img/5.webp" class="img-fluid w-100" alt="">
+        <div class="gallery-item-content"></div>  
+    </div>
+    <div class=" col-md-6 gallery-item mt-2">
+        <img src="./img/6.webp" class="img-fluid w-100" alt="">
+        <div class="gallery-item-content"></div>  
+    </div>
+    </div>
+   </div>
+ </section>
+
+ <!-- Price -->
+  <section id="price" class="price-w">
+   <div class="container">
+     <div class="row">
+       <div class="col-md-12 section-title text-center mb-5">
+        <h6>Best Price For you</h6>
+        <h3>Our Price</h3>
+       </div>
+     </div>
+     <div class="row">
+       <div class="col-lg-3 col-md-6 mb-4">
+         <div class="card p-4 text-center rounded-3">
+          <h5 class="text-decoration-underline mb-4">Price</h5>
+         <ul >
+          <li>
+            <p>Flight Ticket(2)</p>
+          </li>
+          <li>
+            <p >Music Concert(30%Off)</p>
+          </li>
+          <li>
+            <p>Restaurant(Snacks)</p>
+          </li>
+          <li>
+            <p>Face Make(No)</p>
+          </li>
+         </ul>
+         <hr />
+         <h3>$150 <sub class="fs-6 fw-normal">/Night</sub> </h3>
+          <a href="" class="main-btn">Book Now</a>
+        </div>
+       </div>
+       <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card p-4 text-center rounded-3">
+         <h5 class="text-decoration-underline mb-4">Price</h5>
+        <ul >
+         <li>
+           <p>Flight Ticket(2)</p>
+         </li>
+         <li>
+           <p>Music Concert(30%Off)</p>
+         </li>
+         <li>
+           <p>Restaurant(Snacks)</p>
+         </li>
+         <li>
+           <p>Face Make(No)</p>
+         </li>
+        </ul>
+        <hr />
+        <h3>$150 <sub class="fs-6 fw-normal">/Night</sub> </h3>
+         <a href="" class="main-btn">Book Now</a>
+       </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card p-4 text-center rounded-3">
+         <h5 class="text-decoration-underline mb-4">Price</h5>
+        <ul >
+         <li>
+           <p>Flight Ticket(2)</p>
+         </li>
+         <li>
+           <p>Music Concert(30%Off)</p>
+         </li>
+         <li>
+           <p>Restaurant(Snacks)</p>
+         </li>
+         <li>
+           <p>Face Make(No)</p>
+         </li>
+        </ul>
+        <hr />
+        <h3>$150 <sub class="fs-6 fw-normal">/Night</sub> </h3>
+         <a href="" class="main-btn">Book Now</a>
+       </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card p-4 text-center rounded-3">
+         <h5 class="text-decoration-underline mb-4">Price</h5>
+        <ul >
+         <li>
+           <p>Flight Ticket(2)</p>
+         </li>
+         <li>
+           <p>Music Concert(30%Off)</p>
+         </li>
+         <li>
+           <p>Restaurant(Snacks)</p>
+         </li>
+         <li>
+           <p>Face Make(No)</p>
+         </li>
+        </ul>
+        <hr />
+        <h3>$150 <sub class="fs-6 fw-normal">/Night</sub> </h3>
+         <a href="" class="main-btn">Book Now</a>
+       </div>
+      </div>
+     </div>
+   </div>
+  </section>
+  <!-- Blog -->
+  <section id="blog" class="blog-w pb-0">
+     <div class="container">
+       <div class="row">
+        <div class="col-sm-12 section-title text-center mb-5">
+            <h6>Say Hello To Our Visiters</h6>
+            <h3>Our Blog</h3>
+           </div>
+       </div>
+       <div class="row">
+        <div class="col-md-6 mb-4">
+            <div class="card p-0 border-0 rounded-0">
+              <img src="./img/blog1.webp" alt="">
+              <div class="blog-content bg-white p-4">
+               <h5 class="text-decoration-underline mb-4">Relax Zone</h5>
+               <h6>By Admin - 2020</h6>
+               <p class="mt-2"> Lorem ipsum dolor sit amet consectetur.</p>
+               <a href="" class="main-btn mt-2">Read More</a> 
+            </div>
+            </div>
+        </div>
+        <div class="col-md-6 mb-4">
+            <div class="card p-0 border-0 rounded-0">
+              <img src="./img/blog2.webp" alt="">
+              <div class="blog-content bg-white p-4">
+               <h5 class="text-decoration-underline mb-4">Relax Zone</h5>
+               <h6>By Admin - 2020</h6>
+               <p class="mt-2"> Lorem ipsum dolor sit amet consectetur.</p>
+               <a href="" class="main-btn mt-2">Read More</a> 
+            </div>
+            </div>
+        </div>
+       </div>
+     </div>
+  </section>
+  <!-- Footer -->
+   <section id="contact" class="footer-w mt-3 mt-md-0 pb-0">
+      <div class="container pb-3">
+       <div class="row">
+        <div class="col-lg-3 col-md-6">
+           <h5>Hotel Location</h5>
+           <p class="ps-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit....</p>
+           <div class="contact-info">
+            <ul>
+              <li><a href=""><i class="fa fa-home me-3"></i>No. 80, Street</a></li>
+              <li><a href=""><i class="fa fa-phone me-3"></i>+2 98524555</a></li>
+              <li><a href=""><i class="fa fa-envelope me-3"></i>Info@gmail.com</a></li>
+              
+            </ul>
+           </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+            <h5>More Links</h5>
+            
+             <ul class="link-widget">
+               <li><a href="">About Us</a></li>
+               <li><a href="">Our Office</a></li>
+               <li><a href="">Delivery</a></li>
+               <li><a href="">Our Store</a></li>
+               <li><a href="">Return Policy</a></li>
+             </ul>
+         </div>
+         <div class="col-lg-3 col-md-6">
+            <h5>More Links</h5>
+            
+             <ul class="link-widget">
+               <li><a href="">About Us</a></li>
+               <li><a href="">Our Office</a></li>
+               <li><a href="">Delivery</a></li>
+               <li><a href="">Our Store</a></li>
+               <li><a href="">Return Policy</a></li>
+             </ul>
+         </div>
+         <div class="col-lg-3 col-md-6">
+
+<h5>Newsletter</h5>
+
+<div class="form-group mb-4">
+
+<input type="email" class="form-control bg-transparent" placeholder="enter your email
+
+here">
+
+<button type="submit" class="main-btn rounded-2 mt-3 border-white
+
+text-white">Subscribe</button>
+
+</div>
+
+<h5>Stay Connected</h5>
+
+<ul class="social-net d-flex  align-items-center  p-0">
+
+<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+
+<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+
+<li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+
+<li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+
+</ul>
+
+</div>
+       </div>
+      </div>
+  
+   </section>
+    <!-- Bootstrap JS -->
+    
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="./js/main.js"></script>
+</body>
+</html>
